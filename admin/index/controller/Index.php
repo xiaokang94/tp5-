@@ -10,7 +10,7 @@ class Index
 {
     public function index()
     {
-        require_once "E:/web/tiny/vendor/notify/autoload.php";
+        require_once "./../vendor/notify/autoload.php";
         $username = "系统发送";
         $sender = new MailObject($username, '41478184@qq.com', "vejohtiqnmpecada");
         $receiver = new MailObject($username, "1259039066@qq.com");
